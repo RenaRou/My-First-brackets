@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    color: turquoise;
+    background: lightpink;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #30bfdb;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.83;
+    background: linear-gradient(#f5bfe6 40%, #bfc1f5 60%);
+    display: table;
+    width: 100%;
+    height: 100% z-index:9;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    background: #c488f2;
+    width: 100%;
+    margin-top: 0px;
+}
+.links {
+    display:inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.link: hover {
+    font-size:25px;
+    text-decoration: underline;
+}
+
+#name {
+    font-family: roboto condenced, ubuntu, cursive
+}
+
+p {
+    color: crimson
+}
+
+#Apps {
+    width: 100% height:800px background-color:#ecc2ff
+}
+
+.line {
+    height: 6px;
+    background-color: darkkhaki width:70px margin: 8px auto;
+}
+a {
+    text-decoration: none;
+    color: #ff9d00;
+    text-shadow: 2px 2px gainsboro;
+    
+    
+}
